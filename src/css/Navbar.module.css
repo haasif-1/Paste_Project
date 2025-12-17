@@ -1,0 +1,33 @@
+.navbar {
+  max-width: 700px;
+  margin: 30px auto;
+  padding: 14px 20px;
+  background: #020617; /* very dark */
+  border-radius: 10px;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.35);
+}
+
+.link {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  color: #cbd5f5; /* soft text */
+  padding: 8px 16px;
+  border-radius: 6px;
+  transition: all 0.25s ease;
+}
+
+.link:hover {
+  background: #0f172a;
+  color: #22d3ee;
+}
+
+.active {
+  background: linear-gradient(135deg, #6366f1, #22d3ee);
+  color: #020617;
+  font-weight: 600;
+}

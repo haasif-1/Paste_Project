@@ -1,0 +1,131 @@
+.container {
+    max-width: 900px;
+    margin: 40px auto;
+    color: #e5e7eb;
+}
+
+.search {
+    width: 100%;
+    padding: 14px;
+    background: #020617;
+    border: 1px solid #334155;
+    border-radius: 10px;
+    color: #e5e7eb;
+    margin-bottom: 25px;
+}
+
+.heading {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+.card {
+    background: #020617;
+    border: 1px solid #334155;
+    border-radius: 12px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+}
+
+.left h2 {
+    margin: 0 0 10px;
+    font-size: 28px;
+}
+
+.left p {
+    color: #94a3b8;
+    max-width: 500px;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 10px;
+}
+
+.actions {
+    display: flex;
+    gap: 10px;
+}
+
+.actions button,
+.actions a {
+    background: transparent;
+    border: 1px solid #334155;
+    padding: 8px;
+    border-radius: 6px;
+    color: #e5e7eb;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.actions button:hover,
+.actions a:hover {
+    background: #0f172a;
+}
+
+.date {
+    font-size: 14px;
+    color: #94a3b8;
+}
+
+.code {
+    background: #022c22;
+    color: #22c55e;
+    padding: 6px 14px;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.card {
+    background: linear-gradient(135deg, #020617, #020617);
+    border: 1px solid #334155;
+    border-radius: 14px;
+    padding: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 120px;
+    /* ✅ FIXED HEIGHT */
+    overflow: hidden;
+    /* ✅ no overflow */
+    margin-bottom: 22px;
+}
+
+/* LEFT CONTENT */
+.left {
+    max-width: 65%;
+}
+
+.left h2 {
+    font-size: 26px;
+    margin-bottom: 10px;
+}
+
+/* 🔥 KEY PART */
+.left p {
+    color: #94a3b8;
+    font-size: 15px;
+    line-height: 1.6;
+
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    /* ✅ max 3 lines only */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+/* RIGHT SIDE */
+.right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+    height: 100%;
+}
